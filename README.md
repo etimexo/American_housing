@@ -1,5 +1,8 @@
 # House Price Prediction Model
 
+![house_predict](https://github.com/user-attachments/assets/4c1dc837-dbed-454a-82f4-594aa816453f)
+
+
 ## Project Overview
 
 This project focuses on developing a machine learning model capable of accurately predicting house prices based on a diverse set of features, including property characteristics, location data, and socioeconomic indicators. The goal was to identify the most effective regression technique for this task and gain insights into the factors that significantly influence housing prices.
