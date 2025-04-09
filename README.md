@@ -31,18 +31,17 @@ The project involved the following key steps:
 ## Model Performance
 
 The performance of the evaluated models is summarized below:
+| Model             | R² Score | RMSE          | MAE           | MAPE (%) |
+| ----------------- | -------- | ------------- | ------------- | -------- |
+| Linear Regression | 0.49     | \$185,850.00  | \$121,234.87  | 48.01    |
+| Ridge Regression  | 0.49     | \$185,844.16  | \$121,233.35  | 48.01    |
+| Lasso Regression  | 0.49     | \$185,849.42  | \$121,234.59  | 48.01    |
+| Decision Tree     | 0.63     | \$158,369.72  | \$103,013.78  | 40.91    |
+| **Random Forest** | **0.81** | **\$114,326.31** | **\$76,009.57** | **31.63** |
+| Gradient Boosting | 0.76     | \$126,921.35  | \$89,634.11   | 36.79    |
+| SVR               | -0.05    | \$266,186.10  | \$196,248.62  | 73.30    |
 
-| Model             | R² Score | RMSE        | MAE         | MAPE (%) |
-| ----------------- | -------- | ----------- | ----------- | -------- |
-| Linear Regression | 0.4461   | \$162,373.00 | \$107,459.23 | 50.60    |
-| Ridge Regression  | 0.4461   | \$162,367.81 | \$107,458.69 | 50.60    |
-| Lasso Regression  | 0.4461   | \$162,372.33 | \$107,459.08 | 50.60    |
-| Decision Tree     | 0.6089   | \$136,431.31 | \$90,961.22  | 47.44    |
-| **Random Forest** | **0.7996** | **\$97,659.18** | **\$66,660.04** | **37.71** |
-| Gradient Boosting | 0.7427   | \$110,667.77 | \$79,806.74  | 44.60    |
-| SVR               | -0.0367  | \$222,138.89 | \$170,047.11 | 76.87    |
-
-The **Random Forest** model emerged as the best performer, exhibiting a high R² score and the lowest error metrics (RMSE, MAE, MAPE). This indicates its strong ability to predict house prices accurately based on the provided features. The Support Vector Regression (SVR) model showed poor performance on this dataset.
+The **Random Forest** model ended up having the best overall performance, exhibiting a significantly high R² score and the lowest error metrics (RMSE, MAE, MAPE). This reinforces its strong ability to predict house prices accurately based on the provided features. The linear models showed moderate performance, while the Decision Tree and Gradient Boosting models also performed well, though not as effectively as the Random Forest. The Support Vector Regression (SVR) model again showed poor performance on this dataset.
 
 ## Feature Importance
 
